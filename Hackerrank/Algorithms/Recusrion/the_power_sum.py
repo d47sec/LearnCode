@@ -1,10 +1,3 @@
-#!/bin/python3
-
-import math
-import os
-import random
-import re
-import sys
 
 #
 # Complete the 'powerSum' function below.
@@ -16,18 +9,19 @@ import sys
 #
 
 def powerSum(X, N):
-    # Write your code here
-    pass
+    dp = [1] + [0] * X
+    for i in range(1, int(pow(X, 1 / N)) + 1):
+        u = i ** N
+        for j in range(X, u - 1, -1):
+            dp[j] += dp[j - u]
+            print(dp)
+    print(dp[-1])
+
+# LOL vẫn chưa hiểu cái qq gì  để xem video lí thuyết đã
 
 if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
     X = int(input().strip())
 
     N = int(input().strip())
 
     result = powerSum(X, N)
-
-    fptr.write(str(result) + '\n')
-
-    fptr.close()

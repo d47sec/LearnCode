@@ -5,8 +5,9 @@ class Solution:
             if num in dic:
                 return [dic[num], i]
             dic[target-num] = i     
-        return dic            
-nums = [1,2,3,4]
+        return dic
+    
+nums = [3, 3]
 target = 6
 solve = Solution()
 print(solve.twoSum(nums, target))

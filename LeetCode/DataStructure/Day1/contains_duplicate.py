@@ -8,11 +8,11 @@ class Solution:
     def containsDuplicate(self, nums)->bool:
         dic = {}
         for i in nums:
-            if i not in dic:
+            if i in dic:
                 return True
             dic[i] = 1
         return False
     
-nums = [1,1,1,3,3,4,3,2,4,2]
+nums = [1,2,3,4,2]
 solve = Solution()
 print(solve.containsDuplicate(nums))

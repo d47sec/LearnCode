@@ -1,15 +1,13 @@
 class Solution:
-    def maxSubArray(self, a) -> int:
-        
-        max_so_far = a[0]
-        curr_max = a[0]
-        
-        for i in range(1,len(a)):
-            print("current max: " + str(curr_max))
-            curr_max = max(a[i], curr_max + a[i])
-            max_so_far = max(max_so_far,curr_max)
+    def maxSubArray(self, nums) -> int:
+        max_so_far = nums[0]
+        curr_max = nums[0]
+        for i in range(1,len(nums)):
+           curr_max = max(nums[i], curr_max + nums[i])
+           if curr_max > max_so_far:
+               max_so_far = curr_max
         return max_so_far
-
-nums = [5,4,-1,7,8]
+               
+nums = [-2,1,-3,4,-1,2,1,-5,4]
 solve = Solution()
 print(solve.maxSubArray(nums))

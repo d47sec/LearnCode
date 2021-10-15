@@ -19,6 +19,7 @@ class Solution:
             dic[target-j] = i 
         
 solve = Solution()
+# Mảng đã được sắp xếp thì mới sử dụng two pointers được 
 numbers = [2,7,11,15]
 target = 9
 print(solve.twoSum2(numbers, target))

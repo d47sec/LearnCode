@@ -7,7 +7,7 @@ class Solution:
             dic[target-num] = i     
         return dic
     
-nums = [3, 3]
+nums = [3, 2, 1, 4, 5]
 target = 6
 solve = Solution()
 print(solve.twoSum(nums, target))

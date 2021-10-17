@@ -1,5 +1,4 @@
 class Solution:
-                            
     def isValidSudoku(self, board):
         # check rows 
         for r in range(9):
@@ -10,7 +9,6 @@ class Solution:
                         return False
                     else:
                         hashSet.add(board[r][c])
-                
         # check columns 
         for r in range(9):
             hashSet = set()
@@ -39,7 +37,6 @@ class Solution:
                 c = 0
         return True
         
-       
 board =[["8","3",".",".","7",".",".",".","."]
 ,["6",".",".","1","9","5",".",".","."]
 ,[".","9","8",".",".",".",".","6","."]

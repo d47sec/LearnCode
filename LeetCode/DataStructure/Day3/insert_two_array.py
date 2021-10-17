@@ -33,7 +33,7 @@ class Solution:
         return res
                 
 # ĐỘ PHỨC TẠP O(nlog(n))
-nums1 = [4,9,5]
+nums1 = [4,9,5,9]
 nums2 = [9,4,9,8,4]
 solve = Solution()
 print(solve.intersect(nums1, nums2))

@@ -17,7 +17,7 @@ class Solution:
         return False
     
     def match(self, array1, array2):
-        for i in range(len(array1)):
+        for i in range(26):
             if array1[i] != array2[i]:
                 return False
         return True

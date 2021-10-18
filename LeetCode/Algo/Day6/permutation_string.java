@@ -25,4 +25,10 @@ class Solution {
         }
         return true;
     }
+    public static void main(String[] args) {
+        String s1 = "ab";
+        String s2 = "eidbaooo";
+        Solution solve = new Solution();
+        System.out.println(solve.checkInclusion(s1, s2));
+    }
 }

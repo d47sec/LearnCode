@@ -2,6 +2,8 @@
 class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:
         # Sử dụng kĩ thuật mảng đánh dấu 
+        if len(s1) > len(s2):
+            return False
         array1 = [0] * 26
         for i in s1:
             array1[ord(i) - 97] += 1

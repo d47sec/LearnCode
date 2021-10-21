@@ -7,6 +7,5 @@ class Solution:
         for i in range(3, n+1):
             result[i] = result[i-1] + result[i-2] + result[i-3] 
         return result[n]
-    
 solve = Solution()
 print(solve.tribonacci(2))

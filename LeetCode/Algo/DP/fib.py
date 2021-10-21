@@ -10,6 +10,6 @@ class Solution:
         return res[n]
     
 solve = Solution()
-print(solve.fib(0))
+print(solve.fib(50))
 
 # 0 1 1 2 3 5 

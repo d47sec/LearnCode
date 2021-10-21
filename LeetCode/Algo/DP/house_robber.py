@@ -9,10 +9,9 @@ class Solution:
         result[1] = max(nums[0], nums[1])
         for i in range(2, len(nums)):
             result[i] = max(nums[i] + result[i-2], result[i-1])
-        print(result)
+            print(result)
         return result[len(nums)-1]
 
 nums = [1,2,3,1]
 solve = Solution()
 print(solve.rob(nums))
-# Output: 12

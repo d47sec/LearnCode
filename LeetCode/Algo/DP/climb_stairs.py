@@ -1,7 +1,7 @@
 class Solution:
     def climbStairs(self, n: int) -> int:
-        pre = 1
-        curr = 2
+        pre = 1 # n = 1
+        curr = 2 # n = 2
         for i in range(3, n+1):
             sum = pre + curr
             pre = curr

@@ -1,0 +1,35 @@
+CÓ 3 CÁCH ĐỂ DUYỆT CÂY NHỊ PHÂN
+
++) PREORDER : NODE => LEFT => RIGHT 
+
+void PreOrder(node_t* root){
+    if(root != NULL)
+    {
+        printf("%d ", root->data);
+        PreOrder(root->left);
+        PreOrder(root->right);
+    }
+}
+
+
++) INORDER: LEFT => NODE => RIGHT 
+
+void InOrder(node_t* root){
+    if(root != NULL)
+    {
+        InOrder(root->left);
+        printf("%d ", root->data);
+        InOrder(root->right);
+    }
+}
+
++) POSTORDER : LEFT => RIGHT => NODE 
+
+void PostOrder(node_t* root){
+    if(root != NULL)
+    {
+        PostOrder(root->left);
+        PostOrder(root->right);
+        printf("%d ", root->data);
+    }
+}

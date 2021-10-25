@@ -13,7 +13,6 @@ def rot(a):
     a[len(a)-1] = temp
     return a
     
-    
 nums = [1,2,3,4,5]
 d = 4
 print(rotLeft(nums, d))

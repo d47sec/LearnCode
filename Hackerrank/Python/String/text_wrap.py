@@ -1,4 +1,3 @@
-
 def wrap(string, max_width):
     len_string = len(string)
     result = ''

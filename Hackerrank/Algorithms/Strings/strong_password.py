@@ -10,5 +10,4 @@ def minimumNumber(n, password):
         count += 1
     return max(count, 6 - n)
     
-
 print(minimumNumber(3, "Ab1"))

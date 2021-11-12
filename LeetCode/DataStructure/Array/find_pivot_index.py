@@ -8,7 +8,6 @@ class Solution:
             sumL += arr
         return -1
             
-
 nums = [2,1,-1]
 sol = Solution()
 print(sol.pivotIndex(nums))

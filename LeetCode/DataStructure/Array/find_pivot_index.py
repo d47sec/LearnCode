@@ -1,11 +1,11 @@
 class Solution:
     def pivotIndex(self, nums) -> int:
-        sumTotalArray = sum(nums)
-        sumLeftArray = 0
+        sumR = sum(nums)
+        sumL = 0 
         for i, arr in enumerate(nums):
-            if sumLeftArray == sumTotalArray - arr - sumLeftArray:
-                return i
-            sumLeftArray += arr
+            if sumL == sumR - arr - sumL:
+                return i 
+            sumL += arr
         return -1
             
 

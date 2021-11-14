@@ -12,7 +12,6 @@ def makeAnagram(a, b):
             dict_chars[char] = -1
     
     sum_diff = 0
-    
     for char in dict_chars.keys():
         sum_diff += abs(dict_chars[char])
         

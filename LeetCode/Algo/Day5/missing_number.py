@@ -2,6 +2,7 @@ class Solution:
     def missingNumber(self, nums) -> int:
         n = len(nums)
         # sum of nums from 1 to n 
+        
         sum_n = n * (n+1) // 2
         for num in nums:
             sum_n -= num

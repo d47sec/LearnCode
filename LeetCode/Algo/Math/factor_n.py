@@ -14,6 +14,7 @@ def primeFactors(n):
     # n must be odd at this point
     # so a skip of 2 ( i = i + 2) can be used
     # print(math.sqrt(n))
+    
     for i in range(3,int(math.sqrt(n))+1,2):
 
     # while i divides n , print i and divide n
@@ -26,8 +27,7 @@ def primeFactors(n):
         array.append(n)
 
     return array
-        
-# Driver Program to test above function
+    
 
-n = 7
+n = 7943
 print(primeFactors(n))

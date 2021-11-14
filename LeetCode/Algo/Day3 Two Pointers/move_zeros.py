@@ -9,7 +9,6 @@ class Solution:
                 nums[pos], nums[i] = nums[i], nums[pos]
                 pos += 1
 
-            
 solve = Solution()
 nums = [0,1,0,3,12]
 solve.moveZeroes(nums)

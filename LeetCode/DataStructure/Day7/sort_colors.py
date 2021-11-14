@@ -1,8 +1,5 @@
 class Solution:
     def sortColors(self, nums) -> None:
-        """
-        Do not return anything, modify nums in-place instead.
-        """
         red = 0
         white = 0
         blue = 0
@@ -19,9 +16,7 @@ class Solution:
             nums[red+i] = 1
         for i in range(blue):
             nums[red+white+i] = 2
-            
         return nums
 
-    
 solve = Solution()
 print(solve.sortColors([2,0,2,1,1,0]))

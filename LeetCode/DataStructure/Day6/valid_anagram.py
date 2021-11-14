@@ -7,7 +7,6 @@ class Solution:
                 dic1[i] += 1
             else:
                 dic1[i] = 1
-        
         for i in t:
             if i in dic2:
                 dic2[i] += 1

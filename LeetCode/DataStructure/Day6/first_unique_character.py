@@ -3,7 +3,7 @@ class Solution:
     def firstUniqChar(self, s: str) -> int:
         # SOLUTION 1:
         dic = {}
-        for i, c in enumerate(s):
+        for c in s:
             if c in dic:
                 dic[c] += 1
             else:

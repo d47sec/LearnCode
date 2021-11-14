@@ -14,8 +14,8 @@ class Solution:
             node_set.add(head)
             head = head.next
         return False
-    # SOLUTION2 : ĐÁNH DẤU NHỮNG THẰNG ĐÃ ĐI QUA
     
+    # SOLUTION2 : ĐÁNH DẤU NHỮNG THẰNG ĐÃ ĐI QUA
     def hasCycle(self, head) -> bool:
         temp = head
         while temp:

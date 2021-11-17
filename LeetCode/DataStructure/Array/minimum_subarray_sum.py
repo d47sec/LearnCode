@@ -13,6 +13,7 @@ class Solution:
         return ans if ans != len(nums)+1 else 0
        
         
+
 solve = Solution()
 target = 7
 nums = [2,3,1,2,4,3]

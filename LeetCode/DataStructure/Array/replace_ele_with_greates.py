@@ -7,7 +7,6 @@ class Solution:
         arr[len(arr)-1] = -1
         return arr
     
-
 nums = [17,18,5,4,6,1]
 solve = Solution()
 print(solve.replaceElements(nums))

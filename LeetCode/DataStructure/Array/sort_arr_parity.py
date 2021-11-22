@@ -6,9 +6,8 @@ class Solution:
                 nums[k],nums[i] = nums[i], nums[k]
                 k += 1
         return nums
-        
-    
 
+    
 
 solve = Solution()
 nums = [0]

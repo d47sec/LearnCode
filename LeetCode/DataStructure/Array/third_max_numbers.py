@@ -7,7 +7,6 @@ class Solution:
         nums.remove(max(nums))
         return max(nums)
         
-    
 nums = [2,2,3,1]
 solve = Solution()
 print(solve.thirdMax(nums))

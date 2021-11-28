@@ -19,3 +19,7 @@ solve = Solution()
 print(solve.isHappy(100))
 
 # https://leetcode.com/problems/happy-number/solution/
+
+
+# TRONG HASH-MAP THÌ TỐC ĐỘ TÌM KIẾM LÀ 0(1) NHANH HƠN SO VỚI O(N) CỦA VÒNG LẶP 
+

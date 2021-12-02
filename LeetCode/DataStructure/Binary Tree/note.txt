@@ -1,0 +1,21 @@
+CÓ 3 CÁCH ĐỂ DUYỆT QUA MỘT TREE 
+Pre-order Traversal ( ĐI TỪ ROOT => LEFT => RIGHT)
+In-order Traversal ( ĐI TỪ LEFT => ROOT => RIGHT)
+Post-order Traversal ( ĐI TỪ LEFT => RIGHT => ROOT)
+
+
+CÂY NHỊ PHÂN TÌM KIẾM LÀ CÂY NHỊ PHÂN MÀ TẠI MỖI NÚT THÌ NHỮNG NÚT BÊN TRÁI CÓ GIÁ TRỊ NHỎ HƠN NÓ, CÒN
+NÚT BÊN PHẢI CÓ GIÁ TRỊ LỚN HƠN NÓ 
+
+CÂY NHỊ PHÂN TÌM KIẾM CÂN BẰNG HOÀN TOÀN LÀ CÂY NHỊ PHÂN TÌM KIẾM (BST) MÀ TẠI MỘI NÚT CUẢ NÓ, SỐ
+NÚT CỦA CÂY CON TRÁI CHÊNH LỆCH KHÔNG QUÁ 1 SO VỚI SỐ NÚT CỦA CÂY CON PHẢI 
+
+
+CÂY NHỊ PHÂN TÌM KIẾM CÂN BẰNG (AVL) LÀ CÂY BST MÀ TẠI MỖI NÚT CỦA NÓ ĐỘ CAO CỦA CÂY CON TRÁI
+VÀ CỦA CÂY CON PHẢI CHÊNH LỆCH KHÔNG QUÁ 1 
+
+CÂY NHỊ PHÂN TÌM KIẾM CÂN BẰNG HOÀN TOÀN LÀ CÂY AVL , CÒN NGƯỢC LẠI THÌ CHƯA CHẮC.
+
+KHI XẢY RA MẤT CĂNG BẰNG , THÌ TA SỬ DUNGJ PHÉP XOAY CÂY AVL ĐỂ ĐƯU VỀ TRẠNG THÁI CÂY AVL CÂN BẰNG 
+
+ĐỐI VỚI CÂY NHỊ PHÂN BẤT KÌ THÌ CÁCH TỔ CHỨC CÂY NHỊ PHÂN BẰNG DANH SÁCH LIÊN KẾT ĐẠT HIỂU QUẢ CAO HƠN.
